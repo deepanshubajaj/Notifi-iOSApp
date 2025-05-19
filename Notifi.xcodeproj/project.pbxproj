@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E7F578E2DDB3458005E33E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7F578D2DDB3458005E33E1 /* Assets.xcassets */; };
+		2E7F57912DDB3458005E33E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7F57902DDB3458005E33E1 /* Preview Assets.xcassets */; };
+		2E7F57992DDB353C005E33E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F57972DDB353C005E33E1 /* ViewController.swift */; };
+		2E7F579A2DDB353C005E33E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F57982DDB353C005E33E1 /* AppDelegate.swift */; };
+		2E7F579E2DDB36BD005E33E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F579C2DDB36BD005E33E1 /* SceneDelegate.swift */; };
+		2E7F57A22DDB5704005E33E1 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F57A12DDB5704005E33E1 /* NotificationManager.swift */; };
+		2E7F57A42DDB79F6005E33E1 /* MultipleNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F57A32DDB79F6005E33E1 /* MultipleNotificationManager.swift */; };
+		2E7F57AA2DDB7CD6005E33E1 /* audioBg.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2E7F57A62DDB7CD6005E33E1 /* audioBg.wav */; };
+		2E7F57AB2DDB7CD6005E33E1 /* audioA1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2E7F57A72DDB7CD6005E33E1 /* audioA1.wav */; };
+		2E7F57AC2DDB7CD6005E33E1 /* audioA2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2E7F57A82DDB7CD6005E33E1 /* audioA2.wav */; };
+		2E7F57AD2DDB7CD6005E33E1 /* audioFg.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2E7F57A92DDB7CD6005E33E1 /* audioFg.wav */; };
+		2E7F57AF2DDB8D3B005E33E1 /* audioSeq.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2E7F57AE2DDB8D3B005E33E1 /* audioSeq.wav */; };
+		2E7F57B12DDB8E5A005E33E1 /* ImageZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F57B02DDB8E5A005E33E1 /* ImageZoomViewController.swift */; };
+		2E7F57B52DDB8F15005E33E1 /* NotifGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E7F57B42DDB8F15005E33E1 /* NotifGif.gif */; };
+		2E7F57B72DDB8FB9005E33E1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7F57B62DDB8FB9005E33E1 /* SplashScreen.swift */; };
+		2E7F57BA2DDB918B005E33E1 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7F57B92DDB918B005E33E1 /* SplashScreen.storyboard */; };
+		2E7F57BC2DDB9201005E33E1 /* imgNotif.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E7F57BB2DDB9201005E33E1 /* imgNotif.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E7F57862DDB3456005E33E1 /* Notifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notifi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7F578D2DDB3458005E33E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E7F57902DDB3458005E33E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E7F57972DDB353C005E33E1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E7F57982DDB353C005E33E1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E7F579C2DDB36BD005E33E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E7F579F2DDB37B8005E33E1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7F57A12DDB5704005E33E1 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		2E7F57A32DDB79F6005E33E1 /* MultipleNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleNotificationManager.swift; sourceTree = "<group>"; };
+		2E7F57A62DDB7CD6005E33E1 /* audioBg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audioBg.wav; sourceTree = "<group>"; };
+		2E7F57A72DDB7CD6005E33E1 /* audioA1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audioA1.wav; sourceTree = "<group>"; };
+		2E7F57A82DDB7CD6005E33E1 /* audioA2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audioA2.wav; sourceTree = "<group>"; };
+		2E7F57A92DDB7CD6005E33E1 /* audioFg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audioFg.wav; sourceTree = "<group>"; };
+		2E7F57AE2DDB8D3B005E33E1 /* audioSeq.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audioSeq.wav; sourceTree = "<group>"; };
+		2E7F57B02DDB8E5A005E33E1 /* ImageZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageZoomViewController.swift; sourceTree = "<group>"; };
+		2E7F57B42DDB8F15005E33E1 /* NotifGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NotifGif.gif; sourceTree = "<group>"; };
+		2E7F57B62DDB8FB9005E33E1 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		2E7F57B92DDB918B005E33E1 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		2E7F57BB2DDB9201005E33E1 /* imgNotif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgNotif.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E7F57832DDB3456005E33E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7F577D2DDB3456005E33E1 = {
+			isa = PBXGroup;
+			children = (
+				2E7F57882DDB3456005E33E1 /* Notifi */,
+				2E7F57872DDB3456005E33E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E7F57872DDB3456005E33E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E7F57862DDB3456005E33E1 /* Notifi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E7F57882DDB3456005E33E1 /* Notifi */ = {
+			isa = PBXGroup;
+			children = (
+				2E7F57B82DDB8FBF005E33E1 /* SplashScreen */,
+				2E7F57B32DDB8EFB005E33E1 /* OtherAssets */,
+				2E7F57A52DDB7CAE005E33E1 /* NotificationTunes */,
+				2E7F57982DDB353C005E33E1 /* AppDelegate.swift */,
+				2E7F57972DDB353C005E33E1 /* ViewController.swift */,
+				2E7F57A12DDB5704005E33E1 /* NotificationManager.swift */,
+				2E7F57A32DDB79F6005E33E1 /* MultipleNotificationManager.swift */,
+				2E7F57B02DDB8E5A005E33E1 /* ImageZoomViewController.swift */,
+				2E7F579C2DDB36BD005E33E1 /* SceneDelegate.swift */,
+				2E7F579F2DDB37B8005E33E1 /* Info.plist */,
+				2E7F578D2DDB3458005E33E1 /* Assets.xcassets */,
+				2E7F578F2DDB3458005E33E1 /* Preview Content */,
+			);
+			path = Notifi;
+			sourceTree = "<group>";
+		};
+		2E7F578F2DDB3458005E33E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E7F57902DDB3458005E33E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E7F57A52DDB7CAE005E33E1 /* NotificationTunes */ = {
+			isa = PBXGroup;
+			children = (
+				2E7F57A72DDB7CD6005E33E1 /* audioA1.wav */,
+				2E7F57A82DDB7CD6005E33E1 /* audioA2.wav */,
+				2E7F57A62DDB7CD6005E33E1 /* audioBg.wav */,
+				2E7F57A92DDB7CD6005E33E1 /* audioFg.wav */,
+				2E7F57AE2DDB8D3B005E33E1 /* audioSeq.wav */,
+			);
+			path = NotificationTunes;
+			sourceTree = "<group>";
+		};
+		2E7F57B32DDB8EFB005E33E1 /* OtherAssets */ = {
+			isa = PBXGroup;
+			children = (
+				2E7F57B42DDB8F15005E33E1 /* NotifGif.gif */,
+				2E7F57BB2DDB9201005E33E1 /* imgNotif.png */,
+			);
+			path = OtherAssets;
+			sourceTree = "<group>";
+		};
+		2E7F57B82DDB8FBF005E33E1 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2E7F57B62DDB8FB9005E33E1 /* SplashScreen.swift */,
+				2E7F57B92DDB918B005E33E1 /* SplashScreen.storyboard */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E7F57852DDB3456005E33E1 /* Notifi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E7F57942DDB3458005E33E1 /* Build configuration list for PBXNativeTarget "Notifi" */;
+			buildPhases = (
+				2E7F57822DDB3456005E33E1 /* Sources */,
+				2E7F57832DDB3456005E33E1 /* Frameworks */,
+				2E7F57842DDB3456005E33E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notifi;
+			productName = Notifi;
+			productReference = 2E7F57862DDB3456005E33E1 /* Notifi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E7F577E2DDB3456005E33E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2E7F57852DDB3456005E33E1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 2E7F57812DDB3456005E33E1 /* Build configuration list for PBXProject "Notifi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E7F577D2DDB3456005E33E1;
+			productRefGroup = 2E7F57872DDB3456005E33E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E7F57852DDB3456005E33E1 /* Notifi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E7F57842DDB3456005E33E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7F57912DDB3458005E33E1 /* Preview Assets.xcassets in Resources */,
+				2E7F57BA2DDB918B005E33E1 /* SplashScreen.storyboard in Resources */,
+				2E7F57AA2DDB7CD6005E33E1 /* audioBg.wav in Resources */,
+				2E7F57AF2DDB8D3B005E33E1 /* audioSeq.wav in Resources */,
+				2E7F57BC2DDB9201005E33E1 /* imgNotif.png in Resources */,
+				2E7F57AC2DDB7CD6005E33E1 /* audioA2.wav in Resources */,
+				2E7F578E2DDB3458005E33E1 /* Assets.xcassets in Resources */,
+				2E7F57AD2DDB7CD6005E33E1 /* audioFg.wav in Resources */,
+				2E7F57B52DDB8F15005E33E1 /* NotifGif.gif in Resources */,
+				2E7F57AB2DDB7CD6005E33E1 /* audioA1.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E7F57822DDB3456005E33E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7F579A2DDB353C005E33E1 /* AppDelegate.swift in Sources */,
+				2E7F57992DDB353C005E33E1 /* ViewController.swift in Sources */,
+				2E7F57B72DDB8FB9005E33E1 /* SplashScreen.swift in Sources */,
+				2E7F57A22DDB5704005E33E1 /* NotificationManager.swift in Sources */,
+				2E7F57B12DDB8E5A005E33E1 /* ImageZoomViewController.swift in Sources */,
+				2E7F57A42DDB79F6005E33E1 /* MultipleNotificationManager.swift in Sources */,
+				2E7F579E2DDB36BD005E33E1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E7F57922DDB3458005E33E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E7F57932DDB3458005E33E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E7F57952DDB3458005E33E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notifi/Preview Content\"";
+				DEVELOPMENT_TEAM = C9PU46DC53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Notifi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepanshubajaj.Notifi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E7F57962DDB3458005E33E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notifi/Preview Content\"";
+				DEVELOPMENT_TEAM = C9PU46DC53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Notifi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepanshubajaj.Notifi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E7F57812DDB3456005E33E1 /* Build configuration list for PBXProject "Notifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E7F57922DDB3458005E33E1 /* Debug */,
+				2E7F57932DDB3458005E33E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E7F57942DDB3458005E33E1 /* Build configuration list for PBXNativeTarget "Notifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E7F57952DDB3458005E33E1 /* Debug */,
+				2E7F57962DDB3458005E33E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E7F577E2DDB3456005E33E1 /* Project object */;
+}
