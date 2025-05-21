@@ -152,7 +152,23 @@ To run this project locally:
 <p align="center">
     <img src="ProjectOutputs/Snapshots/mainScreen19.jpg" alt="Main Screen 19" width="30%" />
     <img src="ProjectOutputs/Snapshots/mainScreen20.jpg" alt="Main Screen 20" width="30%" />
-    <img src="ProjectOutputs/Snapshots/mainScreen2.jpg" alt="Main Screen 21" width="30%" />
+    <img src="ProjectOutputs/Snapshots/mainScreen21.jpg" alt="Main Screen 21" width="30%" />
+</p>
+
+##
+
+<p align="center">
+    <img src="ProjectOutputs/Snapshots/mainScreen22.jpg" alt="Main Screen 22" width="30%" />
+    <img src="ProjectOutputs/Snapshots/mainScreen23.jpg" alt="Main Screen 23" width="30%" />
+    <img src="ProjectOutputs/Snapshots/mainScreen24.jpg" alt="Main Screen 24" width="30%" />
+</p>
+
+##
+
+<p align="center">
+    <img src="ProjectOutputs/Snapshots/mainScreen25.jpg" alt="Main Screen 25" width="30%" />
+    <img src="ProjectOutputs/Snapshots/mainScreen26.jpg" alt="Main Screen 26" width="30%" />
+    <img src="ProjectOutputs/Snapshots/mainScreen27.jpg" alt="Main Screen 27" width="30%" />
 </p>
 
 <p align="center">
