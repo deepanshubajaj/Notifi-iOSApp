@@ -6,8 +6,8 @@ Notifi-iOSApp
   <img src="https://img.shields.io/badge/swift-5.0-orange" alt="Swift Badge" />
   <img src="https://img.shields.io/badge/platform-iOS-blue" alt="Platform Badge" />
   <img src="https://img.shields.io/badge/license-Apache--2.0-green" alt="License Badge" />
-  <img src="https://img.shields.io/github/last-commit/your-username/Notifi" alt="Last Commit" />
-  <img src="https://img.shields.io/github/stars/your-username/Notifi?style=social" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/last-commit/deepanshubajaj/Notifi" alt="Last Commit" />
+  <img src="https://img.shields.io/github/stars/deepanshubajaj/Notifi?style=social" alt="GitHub Stars" />
 </p>
 
 **Notifi** is a lightweight iOS app that showcases the power and flexibility of **local notifications**. Whether you're testing notification behavior, demonstrating scheduling logic, or learning how to manage alerts on iOS, **Notifi** provides an intuitive interface to simulate and control notifications efficiently.
