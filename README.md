@@ -181,7 +181,7 @@ Here’s a short video showcasing the app's functionality:
   <img src="ProjectOutputs/WorkingVideo/WorkingVideo2.gif" alt="Working App 2" width="30%" />
 </p>
 
-➤ <a href="ProjectOutputs/WorkingVideo/splashScreenVideo.MOV">🎬 Watch Splash Screen Video</a>
+➤ <a href="ProjectOutputs/WorkingVideo/SplashScreen.mp4">🎬 Watch Splash Screen Video</a>
 
 ➤ <a href="ProjectOutputs/WorkingVideo/workingVideo1.MP4">🎥 Watch Working Video 1</a>
 
