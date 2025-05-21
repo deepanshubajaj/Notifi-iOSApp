@@ -89,7 +89,7 @@ To run this project locally:
 
 <p align="center">
   <img src="ProjectOutputs/Snapshots/SScreen1.jpg" alt="Splash Screen 1" width="30%" />
-  <img src="ProjectOutputs/WorkingVideo/splashScreenVideo.gif" alt="Splash Screen" width="30%" />
+  <img src="ProjectOutputs/WorkingVideo/SplashScreen.gif" alt="Splash Screen" width="30%" />
   <img src="ProjectOutputs/Snapshots/SScreen2.jpg" alt="Splash Screen 2" width="30%" />
 </p>
 
